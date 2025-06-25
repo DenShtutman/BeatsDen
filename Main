@@ -1,0 +1,11 @@
+# 1) turn the current folder into a repo
+git init
+
+# 2) drop in a placeholder file (so there’s something to commit)
+echo "# BeatsDen App" > README.md
+
+# 3) stage it
+git add README.md
+
+# 4) commit it (the magic step that removes the banner)
+git commit -m "chore: initial commit"
